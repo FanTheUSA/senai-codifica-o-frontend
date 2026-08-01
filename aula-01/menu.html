@@ -3,50 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu com Ancoragem</title>
+    <title>Mundo-FastFood</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        html{
+            scroll-behavior: smooth;
+        }
+
+        body{
+            background:#f4f4f4;
+            color:#333;
+        }
+
+        header{
+            background:#d62828;
+            color:white;
+            text-align:center;
+            padding:30px 20px;
+        }
+
+        header h1{
+            font-size:40px;
+            margin-bottom:10px;
+        }
+
+        header p{
+            font-size:18px;
+        }
+
+        nav{
+            background:#222;
+            position:sticky;
+            top:0;
+        }
+
+        nav ul{
+            display:flex;
+            justify-content:center;
+            list-style:none;
+        }
+
+        nav ul li{
+            margin:0 20px;
+        }
+
+        nav ul li a{
+            display:block;
+            padding:18px;
+            color:white;
+            text-decoration:none;
+            font-weight:bold;
+            transition:.3s;
+        }
+
+        nav ul li a:hover{
+            background:#d62828;
+        }
+
+        section{
+            width:85%;
+            max-width:1000px;
+            margin:40px auto;
+            background:white;
+            padding:30px;
+            border-radius:10px;
+            box-shadow:0 5px 15px rgba(0,0,0,.15);
+        }
+
+        section h2{
+            color:#d62828;
+            margin-bottom:15px;
+        }
+
+        section p{
+            text-align:justify;
+            line-height:1.8;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:40px;
+        }
+
+        footer a{
+            color:#ffcc00;
+            text-decoration:none;
+        }
+
+        footer a:hover{
+            text-decoration:underline;
+        }
+    </style>
 </head>
+
 <body>
 
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#produtos">Produtos</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    </nav>
+<header id="topo">
+    <h1>Mundo-FastFood</h1>
+    <p>Os hambúrgueres mais diferentes e saborosos do Brasil!</p>
+</header>
 
-    <section id="home">
-        <h2>Home</h2>
-        <p>
-            Bem-vindo ao nosso site. Este é um exemplo de texto longo para criar rolagem na página.
-            Bem-vindo ao nosso site. Este é um exemplo de texto longo para criar rolagem na página.
-            Bem-vindo ao nosso site. Este é um exemplo de texto longo para criar rolagem na página.
-            Bem-vindo ao nosso site. Este é um exemplo de texto longo para criar rolagem na página.
-            Bem-vindo ao nosso site. Este é um exemplo de texto longo para criar rolagem na página.
-        </p>
-    </section>
+<nav>
+    <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+</nav>
 
-    <section id="produtos">
-        <h2>Produtos</h2>
-        <p>
-            Aqui estão os nossos produtos. Este texto foi repetido para aumentar o tamanho da página.
-            Aqui estão os nossos produtos. Este texto foi repetido para aumentar o tamanho da página.
-            Aqui estão os nossos produtos. Este texto foi repetido para aumentar o tamanho da página.
-            Aqui estão os nossos produtos. Este texto foi repetido para aumentar o tamanho da página.
-            Aqui estão os nossos produtos. Este texto foi repetido para aumentar o tamanho da página.
-        </p>
-    </section>
+<section id="home">
+    <h2>Bem-vindo</h2>
 
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>
-            Entre em contato conosco para mais informações. Este texto também foi repetido para gerar rolagem.
-            Entre em contato conosco para mais informações. Este texto também foi repetido para gerar rolagem.
-            Entre em contato conosco para mais informações. Este texto também foi repetido para gerar rolagem.
-            Entre em contato conosco para mais informações. Este texto também foi repetido para gerar rolagem.
-            Entre em contato conosco para mais informações. Este texto também foi repetido para gerar rolagem.
-        </p>
-    </section>
+    <p>
+        A Mundo-FastFood oferece hambúrgueres exclusivos, preparados com ingredientes
+        selecionados e muito sabor. Nosso objetivo é proporcionar uma experiência
+        diferente para todos os clientes, com produtos de qualidade e atendimento
+        rápido.
+    </p>
+</section>
+
+<section id="produtos">
+    <h2>Nossos Produtos</h2>
+
+    <table border="1" width="100%" cellspacing="0" cellpadding="10">
+        <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+            <th>Categoria</th>
+        </tr>
+
+        <tr>
+            <td>Hambúrguer de Jacaré</td>
+            <td>R$ 30,90</td>
+            <td>Hambúrguer Especial</td>
+        </tr>
+
+        <tr>
+            <td>Hambúrguer de Bambi</td>
+            <td>R$ 20,90</td>
+            <td>Hambúrguer Especial</td>
+        </tr>
+
+        <tr>
+            <td>Batata-Doce Grande</td>
+            <td>R$ 10,00</td>
+            <td>Acompanhamento</td>
+        </tr>
+
+        <tr>
+            <td>Batata-Doce Pequena</td>
+            <td>R$ 5,00</td>
+            <td>Acompanhamento</td>
+        </tr>
+    </table>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+
+    <p>
+        Endereço: Rua dos Lanches, 123 - Centro<br><br>
+
+        Telefone: (11) 99999-9999<br><br>
+
+        E-mail: contato@mundofastfood.com.br
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Mundo-FastFood - Todos os direitos reservados.</p>
+    <br>
+    <a href="https://www.burgerking.com.br" target="_blank">Visite nosso parceiro Burger King</a>
+    <br><br>
+    <a href="#topo">▲ Voltar ao topo</a>
+</footer>
 
 </body>
 </html>

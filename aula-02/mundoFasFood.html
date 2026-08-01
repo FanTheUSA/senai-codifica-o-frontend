@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo-FastFood</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+            color:#333;
+            line-height:1.6;
+        }
+
+        header{
+            background:#d62828;
+            color:white;
+            text-align:center;
+            padding:25px;
+        }
+
+        nav{
+            margin-top:15px;
+        }
+
+        nav ul{
+            list-style:none;
+        }
+
+        nav ul li{
+            display:inline-block;
+            margin:0 15px;
+        }
+
+        nav ul li a{
+            color:white;
+            text-decoration:none;
+            font-weight:bold;
+        }
+
+        nav ul li a:hover{
+            text-decoration:underline;
+        }
+
+        main{
+            width:90%;
+            max-width:1000px;
+            margin:30px auto;
+        }
+
+        section{
+            background:white;
+            padding:25px;
+            margin-bottom:25px;
+            border-radius:10px;
+            box-shadow:0 3px 8px rgba(0,0,0,.15);
+        }
+
+        h2{
+            color:#d62828;
+            margin-bottom:15px;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:20px;
+        }
+
+        table th{
+            background:#d62828;
+            color:white;
+            padding:12px;
+        }
+
+        table td{
+            border:1px solid #ccc;
+            padding:10px;
+            text-align:center;
+        }
+
+        table tr:nth-child(even){
+            background:#f8f8f8;
+        }
+
+        ul,ol{
+            margin-left:25px;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+        footer a{
+            color:#ffcc00;
+            text-decoration:none;
+        }
+
+        footer a:hover{
+            text-decoration:underline;
+        }
+
+        .topo{
+            display:inline-block;
+            margin-top:15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header id="topo">
+    <h1>Mundo-FastFood</h1>
+    <p>Os hambúrgueres mais diferentes do Brasil!</p>
+
+    <nav>
+        <ul>
+            <li><a href="#jacare">Hambúrguer de Jacaré</a></li>
+            <li><a href="#bambi">Hambúrguer de Bambi</a></li>
+            <li><a href="#batata-doce">Batata-Doce</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section id="jacare">
+    <h2>Hambúrguer de Jacaré</h2>
+    <p>
+        Nosso hambúrguer de jacaré é preparado com ingredientes selecionados,
+        pão artesanal, queijo, salada e molho especial da casa. Ah, contem mesmo carne de jacare.
+    </p>
+</section>
+
+<section id="bambi">
+    <h2>Hambúrguer de Bambi</h2>
+    <p>
+        Uma opção exclusiva da Mundo-FastFood, acompanhada de queijo cheddar,
+        cebola caramelizada e molho especial. Sim, tem carne de cervo.
+    </p>
+</section>
+
+<section id="batata-doce">
+    <h2>Batata-Doce Grande e Pequena</h2>
+
+    <h3>Categorias</h3>
+
+    <ul>
+        <li>Hambúrgueres Especiais</li>
+        <li>Batatas</li>
+        <li>Bebidas</li>
+        <li>Sobremesas</li>
+    </ul>
+
+    <h3 style="margin-top:25px;">Tabela de Produtos</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Categoria</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Hambúrguer de Jacaré</td>
+                <td>R$ 30,90</td>
+                <td>Hambúrgueres Especiais</td>
+            </tr>
+
+            <tr>
+                <td>Hambúrguer de Bambi</td>
+                <td>R$ 20,90</td>
+                <td>Hambúrgueres Especiais</td>
+            </tr>
+
+            <tr>
+                <td>Batata-Doce Grande</td>
+                <td>R$ 10,00</td>
+                <td>Batatas</td>
+            </tr>
+
+            <tr>
+                <td>Batata-Doce Pequena</td>
+                <td>R$ 5,00</td>
+                <td>Batatas</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section>
+    <h2>Como Comprar</h2>
+
+    <ol>
+        <li>Escolha os produtos desejados.</li>
+        <li>Adicione ao carrinho e confirme o pedido.</li>
+        <li>Realize o pagamento e aguarde a entrega.</li>
+    </ol>
+</section>
+
+</main>
+
+<footer>
+
+    <p>© 2026 Mundo-FastFood - Todos os direitos reservados.</p>
+
+    <br>
+
+    <a href="https://www.burgerking.com.br" target="_blank">
+        Visite nosso parceiro burgerking
+    </a>
+
+    <br><br>
+
+    <a class="topo" href="#topo">▲ Voltar ao topo</a>
+
+</footer>
+
+</body>
+</html>
