@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corpo & Movimento - Academia e Estúdio de Dança</title>
+</head>
+<body>
+
+  <!-- INÍCIO: cabeçalho -->
+  <header>
+    <h1>Corpo & Movimento</h1>
+    <nav aria-label="Menu principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- FIM: cabeçalho -->
+
+  <!-- INÍCIO: principal -->
+  <main>
+    
+    <!-- INÍCIO: banner -->
+    <div class="hero-banner">
+      <img src="img/hero-academia.jpg" alt="Alunos sorridentes praticando exercícios de alongamento na sala iluminada da academia Corpo e Movimento" width="1200" height="600" loading="eager">
+    </div>
+    <!-- FIM: banner -->
+
+    <!-- INÍCIO: sobre-nos -->
+    <section id="about-us">
+      <h2>Sobre a Nossa Academia</h2>
+      <p>A Academia e Estúdio de Dança Corpo & Movimento nasceu com o propósito de unir a saúde do corpo à expressão da alma. Acreditamos que a atividade física não precisa ser monótona, e por isso integramos o dinamismo dos treinos de musculação com a alegria e a leveza das aulas de dança em um único espaço integrado.</p>
+      <p>Nossa equipe é formada por profissionais altamente qualificados e prontos para acompanhar a sua jornada, seja você um iniciante buscando mais saúde ou um atleta procurando alta performance. Aqui, cada movimento conta para o seu bem-estar diário.</p>
+    </section>
+    <!-- FIM: sobre-nos -->
+
+    <!-- INÍCIO: diferenciais -->
+    <section id="features">
+      <h2>Por que treinar conosco?</h2>
+      <ul>
+        <li>Equipamentos de musculação modernos e de última geração.</li>
+        <li>Professores certificados e instrutores de dança premiados.</li>
+        <li>Ambiente totalmente climatizado e com vestiários completos.</li>
+        <li>Grade de horários flexível com aulas desde o início da manhã até a noite.</li>
+      </ul>
+    </section>
+    <!-- FIM: diferenciais -->
+
+  </main>
+  <!-- FIM: principal -->
+
+  <!-- INÍCIO: rodape -->
+  <footer>
+    <p>Desenvolvido por: Nome do Aluno 1 e Nome do Aluno 2</p>
+    <p>Para saber mais sobre os benefícios da atividade física, visite o <a href="https://who.int" target="_blank" rel="noopener noreferrer">Site Oficial da OMS</a>.</p>
+  </footer>
+  <!-- FIM: rodape -->
+
+</body>
+</html>
